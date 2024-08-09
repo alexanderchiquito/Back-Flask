@@ -1,0 +1,684 @@
+2024-08-04 17:17:06 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:17:06 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:17:06 | ERROR | 'NoneType' object has no attribute 'cursor'
+2024-08-04 17:17:33 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:17:33 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:17:33 | ERROR | 'NoneType' object has no attribute 'cursor'
+2024-08-04 17:18:30 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:18:30 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:18:30 | ERROR | 'NoneType' object has no attribute 'cursor'
+2024-08-04 17:18:33 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:18:33 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:18:33 | ERROR | 'NoneType' object has no attribute 'cursor'
+2024-08-04 17:18:37 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:18:37 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:18:37 | ERROR | 'NoneType' object has no attribute 'cursor'
+2024-08-04 17:18:40 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:18:40 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:18:40 | ERROR | 'NoneType' object has no attribute 'cursor'
+2024-08-04 17:22:45 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:22:45 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:22:45 | ERROR | 'NoneType' object has no attribute 'cursor'
+2024-08-04 17:26:49 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:26:49 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:26:49 | ERROR | 'NoneType' object has no attribute 'cursor'
+2024-08-04 17:30:22 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:30:22 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:33:26 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:33:26 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:35:28 | ERROR | 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2024-08-04 17:35:28 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\database\db_mysql.py", line 12, in get_connection
+    return pymysql.connect(
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 352, in __init__
+    self.connect()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 636, in connect
+    self._request_authentication()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 933, in _request_authentication
+    auth_packet = _auth.caching_sha2_password_auth(self, auth_packet)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 265, in caching_sha2_password_auth
+    data = sha2_rsa_encrypt(conn.password, conn.salt, conn.server_public_key)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\_auth.py", line 143, in sha2_rsa_encrypt
+    raise RuntimeError(
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+2024-08-04 17:58:53 | INFO | Executing query with carnet: 20201025090
+2024-08-04 17:58:53 | INFO | Query results: [{'PERIODO_INGRESO': '2020-1', 'FACULTAD': 'Facultad de Ingeniería', 'CARNET': '20201025090', 'PROGRAMA': 'INGENIERÍA DE SISTEMAS', 'NOMBRE': 'RAMIREZ CHIQUITO ALEXANDER', 'TIPO_DOCUMENTO': 'CC - Cédula de Ciudadanía', 'NUMERO_DOCUMENTO': '1002976884', 'PERIODO_MATRICULA': '2021-2', 'FECHA_NACIMIENTO': datetime.datetime(2002, 3, 19, 0, 0), 'EDAD': 22, 'GENERO': 'M', 'ESTADO': 'ACTIVO', 'ESTADO_CIVIL': 'SOLTERO(A)', 'PAIS': 'COLOMBIA', 'DEPARTAMENTO': 'CAUCA', 'MUNICIPIO': 'CORINTO', 'Vulnerable': 'NO', 'GRUPO_ETNICO': '[NO APLICA]', 'VICTIMA_CONFLICTO': 'NO', 'NECESIDAD_EDUCATIVA': 'NO', 'DISCAPACIDAD': '[NO APLICA]', 'CAPACIDAD_EXEPCIONAL': '[NO APLICA]', 'PAIS_FRONTERA': '[NO APLICA]', 'SISBEN': 'Grupo A', 'VALIDO_BACHILLERATO': 'SI', 'GRUPO_FAMILIAR': 4, 'APORTANTE_FAMILIAR': 1, 'NIVEL_EDU_PADRE': 'SECUNDARIA', 'NIVEL_EDU_MADRE': 'TECNICO', 'NUMERO_HERMANOS': 'ENTRE 1-5', 'N_PERSONAS_CARGO': 0, 'TRAB_ESTE_PERIODO': 'NO', 'RESIDENTE': 'NO', 'DESERTO': 'NO\n'}, {'PERIODO_INGRESO': '2020-1', 'FACULTAD': 'Facultad de Ingeniería', 'CARNET': '20201025090', 'PROGRAMA': 'INGENIERÍA DE SISTEMAS', 'NOMBRE': 'RAMIREZ CHIQUITO ALEXANDER', 'TIPO_DOCUMENTO': 'CC - Cédula de Ciudadanía', 'NUMERO_DOCUMENTO': '1002976884', 'PERIODO_MATRICULA': '2022-1', 'FECHA_NACIMIENTO': datetime.datetime(2002, 3, 19, 0, 0), 'EDAD': 22, 'GENERO': 'M', 'ESTADO': 'ACTIVO', 'ESTADO_CIVIL': 'SOLTERO(A)', 'PAIS': 'COLOMBIA', 'DEPARTAMENTO': 'CAUCA', 'MUNICIPIO': 'CORINTO', 'Vulnerable': 'NO', 'GRUPO_ETNICO': '[NO APLICA]', 'VICTIMA_CONFLICTO': 'NO', 'NECESIDAD_EDUCATIVA': 'NO', 'DISCAPACIDAD': '[NO APLICA]', 'CAPACIDAD_EXEPCIONAL': '[NO APLICA]', 'PAIS_FRONTERA': '[NO APLICA]', 'SISBEN': 'Grupo A', 'VALIDO_BACHILLERATO': 'SI', 'GRUPO_FAMILIAR': 4, 'APORTANTE_FAMILIAR': 1, 'NIVEL_EDU_PADRE': 'SECUNDARIA', 'NIVEL_EDU_MADRE': 'TECNICO', 'NUMERO_HERMANOS': 'ENTRE 1-5', 'N_PERSONAS_CARGO': 0, 'TRAB_ESTE_PERIODO': 'NO', 'RESIDENTE': 'NO', 'DESERTO': 'NO\n'}, {'PERIODO_INGRESO': '2020-1', 'FACULTAD': 'Facultad de Ingeniería', 'CARNET': '20201025090', 'PROGRAMA': 'INGENIERÍA DE SISTEMAS', 'NOMBRE': 'RAMIREZ CHIQUITO ALEXANDER', 'TIPO_DOCUMENTO': 'CC - Cédula de Ciudadanía', 'NUMERO_DOCUMENTO': '1002976884', 'PERIODO_MATRICULA': '2023-2', 'FECHA_NACIMIENTO': datetime.datetime(2002, 3, 19, 0, 0), 'EDAD': 22, 'GENERO': 'M', 'ESTADO': 'ACTIVO', 'ESTADO_CIVIL': 'SOLTERO(A)', 'PAIS': 'COLOMBIA', 'DEPARTAMENTO': 'CAUCA', 'MUNICIPIO': 'CORINTO', 'Vulnerable': 'NO', 'GRUPO_ETNICO': '[NO APLICA]', 'VICTIMA_CONFLICTO': 'NO', 'NECESIDAD_EDUCATIVA': 'NO', 'DISCAPACIDAD': '[NO APLICA]', 'CAPACIDAD_EXEPCIONAL': '[NO APLICA]', 'PAIS_FRONTERA': '[NO APLICA]', 'SISBEN': 'Grupo A', 'VALIDO_BACHILLERATO': 'SI', 'GRUPO_FAMILIAR': 4, 'APORTANTE_FAMILIAR': 1, 'NIVEL_EDU_PADRE': 'SECUNDARIA', 'NIVEL_EDU_MADRE': 'TECNICO', 'NUMERO_HERMANOS': 'ENTRE 1-5', 'N_PERSONAS_CARGO': 0, 'TRAB_ESTE_PERIODO': 'NO', 'RESIDENTE': 'NO', 'DESERTO': 'NO\n'}, {'PERIODO_INGRESO': '2020-1', 'FACULTAD': 'Facultad de Ingeniería', 'CARNET': '20201025090', 'PROGRAMA': 'INGENIERÍA DE SISTEMAS', 'NOMBRE': 'RAMIREZ CHIQUITO ALEXANDER', 'TIPO_DOCUMENTO': 'CC - Cédula de Ciudadanía', 'NUMERO_DOCUMENTO': '1002976884', 'PERIODO_MATRICULA': '2020-1', 'FECHA_NACIMIENTO': datetime.datetime(2002, 3, 19, 0, 0), 'EDAD': 22, 'GENERO': 'M', 'ESTADO': 'ACTIVO', 'ESTADO_CIVIL': 'SOLTERO(A)', 'PAIS': 'COLOMBIA', 'DEPARTAMENTO': 'CAUCA', 'MUNICIPIO': 'CORINTO', 'Vulnerable': 'NO', 'GRUPO_ETNICO': '[NO APLICA]', 'VICTIMA_CONFLICTO': 'NO', 'NECESIDAD_EDUCATIVA': 'NO', 'DISCAPACIDAD': '[NO APLICA]', 'CAPACIDAD_EXEPCIONAL': '[NO APLICA]', 'PAIS_FRONTERA': '[NO APLICA]', 'SISBEN': 'Grupo A', 'VALIDO_BACHILLERATO': 'SI', 'GRUPO_FAMILIAR': 4, 'APORTANTE_FAMILIAR': 1, 'NIVEL_EDU_PADRE': 'SECUNDARIA', 'NIVEL_EDU_MADRE': 'TECNICO', 'NUMERO_HERMANOS': 'ENTRE 1-5', 'N_PERSONAS_CARGO': 0, 'TRAB_ESTE_PERIODO': 'NO', 'RESIDENTE': 'NO', 'DESERTO': 'NO\n'}, {'PERIODO_INGRESO': '2020-1', 'FACULTAD': 'Facultad de Ingeniería', 'CARNET': '20201025090', 'PROGRAMA': 'INGENIERÍA DE SISTEMAS', 'NOMBRE': 'RAMIREZ CHIQUITO ALEXANDER', 'TIPO_DOCUMENTO': 'CC - Cédula de Ciudadanía', 'NUMERO_DOCUMENTO': '1002976884', 'PERIODO_MATRICULA': '2020-2', 'FECHA_NACIMIENTO': datetime.datetime(2002, 3, 19, 0, 0), 'EDAD': 22, 'GENERO': 'M', 'ESTADO': 'ACTIVO', 'ESTADO_CIVIL': 'SOLTERO(A)', 'PAIS': 'COLOMBIA', 'DEPARTAMENTO': 'CAUCA', 'MUNICIPIO': 'CORINTO', 'Vulnerable': 'NO', 'GRUPO_ETNICO': '[NO APLICA]', 'VICTIMA_CONFLICTO': 'NO', 'NECESIDAD_EDUCATIVA': 'NO', 'DISCAPACIDAD': '[NO APLICA]', 'CAPACIDAD_EXEPCIONAL': '[NO APLICA]', 'PAIS_FRONTERA': '[NO APLICA]', 'SISBEN': 'Grupo A', 'VALIDO_BACHILLERATO': 'SI', 'GRUPO_FAMILIAR': 4, 'APORTANTE_FAMILIAR': 1, 'NIVEL_EDU_PADRE': 'SECUNDARIA', 'NIVEL_EDU_MADRE': 'TECNICO', 'NUMERO_HERMANOS': 'ENTRE 1-5', 'N_PERSONAS_CARGO': 0, 'TRAB_ESTE_PERIODO': 'NO', 'RESIDENTE': 'NO', 'DESERTO': 'NO\n'}, {'PERIODO_INGRESO': '2020-1', 'FACULTAD': 'Facultad de Ingeniería', 'CARNET': '20201025090', 'PROGRAMA': 'INGENIERÍA DE SISTEMAS', 'NOMBRE': 'RAMIREZ CHIQUITO ALEXANDER', 'TIPO_DOCUMENTO': 'CC - Cédula de Ciudadanía', 'NUMERO_DOCUMENTO': '1002976884', 'PERIODO_MATRICULA': '2022-2', 'FECHA_NACIMIENTO': datetime.datetime(2002, 3, 19, 0, 0), 'EDAD': 22, 'GENERO': 'M', 'ESTADO': 'ACTIVO', 'ESTADO_CIVIL': 'SOLTERO(A)', 'PAIS': 'COLOMBIA', 'DEPARTAMENTO': 'CAUCA', 'MUNICIPIO': 'CORINTO', 'Vulnerable': 'NO', 'GRUPO_ETNICO': '[NO APLICA]', 'VICTIMA_CONFLICTO': 'NO', 'NECESIDAD_EDUCATIVA': 'NO', 'DISCAPACIDAD': '[NO APLICA]', 'CAPACIDAD_EXEPCIONAL': '[NO APLICA]', 'PAIS_FRONTERA': '[NO APLICA]', 'SISBEN': 'Grupo A', 'VALIDO_BACHILLERATO': 'SI', 'GRUPO_FAMILIAR': 4, 'APORTANTE_FAMILIAR': 1, 'NIVEL_EDU_PADRE': 'SECUNDARIA', 'NIVEL_EDU_MADRE': 'TECNICO', 'NUMERO_HERMANOS': 'ENTRE 1-5', 'N_PERSONAS_CARGO': 0, 'TRAB_ESTE_PERIODO': 'NO', 'RESIDENTE': 'NO', 'DESERTO': 'NO\n'}, {'PERIODO_INGRESO': '2020-1', 'FACULTAD': 'Facultad de Ingeniería', 'CARNET': '20201025090', 'PROGRAMA': 'INGENIERÍA DE SISTEMAS', 'NOMBRE': 'RAMIREZ CHIQUITO ALEXANDER', 'TIPO_DOCUMENTO': 'CC - Cédula de Ciudadanía', 'NUMERO_DOCUMENTO': '1002976884', 'PERIODO_MATRICULA': '2021-1', 'FECHA_NACIMIENTO': datetime.datetime(2002, 3, 19, 0, 0), 'EDAD': 22, 'GENERO': 'M', 'ESTADO': 'ACTIVO', 'ESTADO_CIVIL': 'SOLTERO(A)', 'PAIS': 'COLOMBIA', 'DEPARTAMENTO': 'CAUCA', 'MUNICIPIO': 'CORINTO', 'Vulnerable': 'NO', 'GRUPO_ETNICO': '[NO APLICA]', 'VICTIMA_CONFLICTO': 'NO', 'NECESIDAD_EDUCATIVA': 'NO', 'DISCAPACIDAD': '[NO APLICA]', 'CAPACIDAD_EXEPCIONAL': '[NO APLICA]', 'PAIS_FRONTERA': '[NO APLICA]', 'SISBEN': 'Grupo A', 'VALIDO_BACHILLERATO': 'SI', 'GRUPO_FAMILIAR': 4, 'APORTANTE_FAMILIAR': 1, 'NIVEL_EDU_PADRE': 'SECUNDARIA', 'NIVEL_EDU_MADRE': 'TECNICO', 'NUMERO_HERMANOS': 'ENTRE 1-5', 'N_PERSONAS_CARGO': 0, 'TRAB_ESTE_PERIODO': 'NO', 'RESIDENTE': 'NO', 'DESERTO': 'NO\n'}, {'PERIODO_INGRESO': '2020-1', 'FACULTAD': 'Facultad de Ingeniería', 'CARNET': '20201025090', 'PROGRAMA': 'INGENIERÍA DE SISTEMAS', 'NOMBRE': 'RAMIREZ CHIQUITO ALEXANDER', 'TIPO_DOCUMENTO': 'CC - Cédula de Ciudadanía', 'NUMERO_DOCUMENTO': '1002976884', 'PERIODO_MATRICULA': '2023-1', 'FECHA_NACIMIENTO': datetime.datetime(2002, 3, 19, 0, 0), 'EDAD': 22, 'GENERO': 'M', 'ESTADO': 'ACTIVO', 'ESTADO_CIVIL': 'SOLTERO(A)', 'PAIS': 'COLOMBIA', 'DEPARTAMENTO': 'CAUCA', 'MUNICIPIO': 'CORINTO', 'Vulnerable': 'NO', 'GRUPO_ETNICO': '[NO APLICA]', 'VICTIMA_CONFLICTO': 'NO', 'NECESIDAD_EDUCATIVA': 'NO', 'DISCAPACIDAD': '[NO APLICA]', 'CAPACIDAD_EXEPCIONAL': '[NO APLICA]', 'PAIS_FRONTERA': '[NO APLICA]', 'SISBEN': 'Grupo A', 'VALIDO_BACHILLERATO': 'SI', 'GRUPO_FAMILIAR': 4, 'APORTANTE_FAMILIAR': 1, 'NIVEL_EDU_PADRE': 'SECUNDARIA', 'NIVEL_EDU_MADRE': 'TECNICO', 'NUMERO_HERMANOS': 'ENTRE 1-5', 'N_PERSONAS_CARGO': 0, 'TRAB_ESTE_PERIODO': 'NO', 'RESIDENTE': 'NO', 'DESERTO': 'NO\n'}]
+2024-08-05 09:55:39 | INFO | GET /
+2024-08-05 10:20:17 | ERROR | (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1")
+2024-08-05 10:20:17 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\generoService.py", line 17, in get_cantidad_desertores_por_genero
+    cursor.execute(GET_CANT_DESERTORES_BY_GENERO)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 158, in execute
+    result = self._query(query)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 325, in _query
+    conn.query(q)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 779, in _read_query_result
+    result.read()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1")
+
+2024-08-05 10:20:23 | ERROR | (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1")
+2024-08-05 10:20:23 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\generoService.py", line 17, in get_cantidad_desertores_por_genero
+    cursor.execute(GET_CANT_DESERTORES_BY_GENERO)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 158, in execute
+    result = self._query(query)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 325, in _query
+    conn.query(q)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 779, in _read_query_result
+    result.read()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1")
+
+2024-08-05 10:22:26 | ERROR | (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1")
+2024-08-05 10:22:26 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\generoService.py", line 17, in get_cantidad_desertores_por_genero
+    cursor.execute(GET_CANT_DESERTORES_BY_GENERO)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 158, in execute
+    result = self._query(query)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 325, in _query
+    conn.query(q)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 779, in _read_query_result
+    result.read()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1")
+
+2024-08-05 10:24:44 | ERROR | (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1")
+2024-08-05 10:24:44 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\generoService.py", line 17, in get_cantidad_desertores_por_genero
+    cursor.execute(GET_CANT_DESERTORES_BY_GENERO)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 158, in execute
+    result = self._query(query)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 325, in _query
+    conn.query(q)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 779, in _read_query_result
+    result.read()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1")
+
+2024-08-05 11:11:21 | ERROR | 'DesertoresPorFacultad' object has no attribute 'to_Json'
+2024-08-05 11:11:21 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 38, in get_cantidad_desertores_por_facultad
+    desertores_por_facultad.append(Desertores.to_Json())
+AttributeError: 'DesertoresPorFacultad' object has no attribute 'to_Json'
+
+2024-08-05 14:17:09 | ERROR | 'SISBEN'
+2024-08-05 14:17:09 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 55, in get_cantidad_desertores_por_sisben
+    Desertores = DesertoresPorSisben(row['SISBEN'], row['cantidad_estudiantes_desertores'])
+KeyError: 'SISBEN'
+
+2024-08-05 14:44:56 | ERROR | 'NUMERO_DOCUMENTO'
+2024-08-05 14:44:56 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 55, in get_cantidad_desertores_por_sisben
+    Desertores = DesertoresPorSisben(row['NUMERO_DOCUMENTO'], row['cantidad_estudiantes_desertores'])
+KeyError: 'NUMERO_DOCUMENTO'
+
+2024-08-05 14:46:09 | ERROR | 'NUMERO_DOCUMENTO'
+2024-08-05 14:46:09 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 55, in get_cantidad_desertores_por_sisben
+    Desertores = DesertoresPorSisben(row['NUMERO_DOCUMENTO'], row['cantidad_estudiantes_desertores'])
+KeyError: 'NUMERO_DOCUMENTO'
+
+2024-08-05 14:46:15 | ERROR | 'NUMERO_DOCUMENTO'
+2024-08-05 14:46:15 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 55, in get_cantidad_desertores_por_sisben
+    Desertores = DesertoresPorSisben(row['NUMERO_DOCUMENTO'], row['cantidad_estudiantes_desertores'])
+KeyError: 'NUMERO_DOCUMENTO'
+
+2024-08-05 14:47:17 | ERROR | 'NUMERO_DOCUMENTO'
+2024-08-05 14:47:17 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 55, in get_cantidad_desertores_por_sisben
+    Desertores = DesertoresPorSisben(row['NUMERO_DOCUMENTO'], row['cantidad_estudiantes_desertores'])
+KeyError: 'NUMERO_DOCUMENTO'
+
+2024-08-05 14:47:50 | ERROR | 'NUMERO_DOCUMENTO'
+2024-08-05 14:47:50 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 55, in get_cantidad_desertores_por_sisben
+    Desertores = DesertoresPorSisben(row['NUMERO_DOCUMENTO'], row['cantidad_estudiantes_desertores'])
+KeyError: 'NUMERO_DOCUMENTO'
+
+2024-08-05 14:49:48 | ERROR | 'NUMERO_DOCUMENTO'
+2024-08-05 14:49:48 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 55, in get_cantidad_desertores_por_sisben
+    Desertores = DesertoresPorSisben(row['NUMERO_DOCUMENTO'], row['cantidad_estudiantes_desertores'])
+KeyError: 'NUMERO_DOCUMENTO'
+
+2024-08-05 15:43:14 | ERROR | 'GRUPO_ETNICO'
+2024-08-05 15:43:14 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 109, in get_cantidad_desertores_por_etnia
+    desertor = DesertoresPorEtnia(row['GRUPO_ETNICO'], row['cantidad_estudiantes'])
+KeyError: 'GRUPO_ETNICO'
+
+2024-08-05 15:44:57 | ERROR | 'GRUPO_ETNICO'
+2024-08-05 15:44:57 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 109, in get_cantidad_desertores_por_etnia
+    desertor = DesertoresPorEtnia(row['GRUPO_ETNICO'], row['cantidad_estudiantes'])
+KeyError: 'GRUPO_ETNICO'
+
+2024-08-05 15:45:52 | ERROR | 'cantidad_estudiantes'
+2024-08-05 15:45:52 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\porcentGeneralDesercion.py", line 109, in get_cantidad_desertores_por_etnia
+    desertor = DesertoresPorEtnia(row['GRUPO_ETNICO'], row['cantidad_estudiantes'])
+KeyError: 'cantidad_estudiantes'
+
+2024-08-06 11:13:05 | ERROR | __init__() takes 3 positional arguments but 5 were given
+2024-08-06 11:13:05 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\routes\AuthRoutes.py", line 23, in login
+    _user = User(0, username, password, None)
+TypeError: __init__() takes 3 positional arguments but 5 were given
+
+2024-08-06 11:17:03 | ERROR | __init__() takes 3 positional arguments but 5 were given
+2024-08-06 11:17:03 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\routes\AuthRoutes.py", line 23, in login
+    _user = User(0, username, password, None)
+TypeError: __init__() takes 3 positional arguments but 5 were given
+
+2024-08-06 11:18:58 | ERROR | unsupported format character 'k' (0x6b) at index 132
+2024-08-06 11:18:58 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 132
+
+2024-08-06 11:31:39 | ERROR | __init__() takes 3 positional arguments but 4 were given
+2024-08-06 11:31:39 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\routes\AuthRoutes.py", line 23, in login
+    _user = User(username, password, None)
+TypeError: __init__() takes 3 positional arguments but 4 were given
+
+2024-08-06 11:32:08 | ERROR | unsupported format character 'k' (0x6b) at index 132
+2024-08-06 11:32:08 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 132
+
+2024-08-06 11:33:37 | ERROR | unsupported format character 'k' (0x6b) at index 132
+2024-08-06 11:33:37 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 132
+
+2024-08-06 11:39:47 | ERROR | unsupported format character 'k' (0x6b) at index 132
+2024-08-06 11:39:47 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 132
+
+2024-08-06 11:42:21 | ERROR | 'User' object has no attribute 'username'
+2024-08-06 11:42:21 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\utils\Security.py", line 23, in generate_token
+    'username': authenticated_user.username,
+AttributeError: 'User' object has no attribute 'username'
+
+2024-08-06 11:44:22 | ERROR | 'User' object has no attribute 'fullname'
+2024-08-06 11:44:22 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\utils\Security.py", line 24, in generate_token
+    'fullname': authenticated_user.fullname,
+AttributeError: 'User' object has no attribute 'fullname'
+
+2024-08-06 12:17:20 | INFO | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5NjQ2MjUsImV4cCI6MTcyMjk2NTIyNSwidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.IUq6PD6IXnFpN9mf0YNz65UYYWvlG-TQZslf1T0Ir00
+2024-08-06 12:17:20 | INFO | Encoded token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5NjQ2MjUsImV4cCI6MTcyMjk2NTIyNSwidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.IUq6PD6IXnFpN9mf0YNz65UYYWvlG-TQZslf1T0Ir00
+2024-08-06 12:21:39 | INFO | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5NjQ4NzEsImV4cCI6MTcyMjk2NTQ3MSwidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.adoW5EDtoKu9snvsS-0eoTnzQO7qtvQyHaaNMR5E1VI
+2024-08-06 12:21:39 | INFO | Encoded token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5NjQ4NzEsImV4cCI6MTcyMjk2NTQ3MSwidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.adoW5EDtoKu9snvsS-0eoTnzQO7qtvQyHaaNMR5E1VI
+2024-08-06 12:21:39 | INFO | Authorization header missing or empty
+2024-08-06 12:24:33 | INFO | Authorization header missing or empty
+2024-08-06 12:26:05 | INFO | Authorization header missing or empty
+2024-08-06 13:31:43 | INFO | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5Njg3MDcsImV4cCI6MTcyMjk2OTMwNywidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.DFRTRXjgpcrEfRwlF3iokqFdejl6Sk3BncpxUay-5s8
+2024-08-06 13:31:43 | INFO | Encoded token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5Njg3MDcsImV4cCI6MTcyMjk2OTMwNywidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.DFRTRXjgpcrEfRwlF3iokqFdejl6Sk3BncpxUay-5s8
+2024-08-06 13:31:43 | INFO | Authorization header missing or empty
+2024-08-06 13:33:52 | INFO | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5Njg3MDcsImV4cCI6MTcyMjk2OTMwNywidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.DFRTRXjgpcrEfRwlF3iokqFdejl6Sk3BncpxUay-5s8
+2024-08-06 13:33:52 | INFO | Encoded token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5Njg3MDcsImV4cCI6MTcyMjk2OTMwNywidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.DFRTRXjgpcrEfRwlF3iokqFdejl6Sk3BncpxUay-5s8
+2024-08-06 13:33:52 | INFO | Authorization header missing or empty
+2024-08-06 13:35:15 | INFO | Authorization header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5Njg3MDcsImV4cCI6MTcyMjk2OTMwNywidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.DFRTRXjgpcrEfRwlF3iokqFdejl6Sk3BncpxUay-5s8
+2024-08-06 13:35:15 | INFO | Encoded token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5Njg3MDcsImV4cCI6MTcyMjk2OTMwNywidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.DFRTRXjgpcrEfRwlF3iokqFdejl6Sk3BncpxUay-5s8
+2024-08-06 13:35:15 | INFO | Authorization header missing or empty
+2024-08-06 13:43:05 | INFO | Headers received: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5Njk1MjYsImV4cCI6MTcyMjk3MDEyNiwidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.rKr0O2U9AQiuCKuRO1qkGaY91kmao55NVCZA9homEXU
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Postman-Token: fc3685b2-57ab-4eaf-b7b5-aafdf10be37d
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-08-06 13:43:05 | INFO | Authorization header missing or empty
+2024-08-06 13:48:34 | ERROR | unsupported format character 'k' (0x6b) at index 152
+2024-08-06 13:48:34 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 152
+
+2024-08-06 13:52:25 | ERROR | unsupported format character 'k' (0x6b) at index 152
+2024-08-06 13:52:25 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 152
+
+2024-08-06 13:56:40 | ERROR | unsupported format character 'k' (0x6b) at index 152
+2024-08-06 13:56:40 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 152
+
+2024-08-06 14:02:52 | ERROR | unsupported format character 'k' (0x6b) at index 152
+2024-08-06 14:02:52 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 152
+
+2024-08-06 14:22:37 | ERROR | unsupported format character 'k' (0x6b) at index 165
+2024-08-06 14:22:37 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 165
+
+2024-08-06 14:23:05 | ERROR | unsupported format character 'k' (0x6b) at index 165
+2024-08-06 14:23:05 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 165
+
+2024-08-06 14:27:24 | ERROR | unsupported format character 'k' (0x6b) at index 165
+2024-08-06 14:27:24 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 165
+
+2024-08-06 14:32:31 | ERROR | 'CLAVE_ACCESO'
+2024-08-06 14:32:31 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\routes\AuthRoutes.py", line 21, in login
+    password = request.json['CLAVE_ACCESO']
+KeyError: 'CLAVE_ACCESO'
+
+2024-08-06 14:32:49 | ERROR | not all arguments converted during string formatting
+2024-08-06 14:32:49 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 20, in login_user
+    cursor.execute(GET_AUTH_LOGIN, (user.USUARIO_ACCESO, user.CLAVE_ACCESO))
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+TypeError: not all arguments converted during string formatting
+
+2024-08-06 14:35:57 | ERROR | unsupported format character 'k' (0x6b) at index 165
+2024-08-06 14:35:57 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 25, in login_user
+    cursor.execute(query, params)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 165
+
+2024-08-06 14:39:45 | ERROR | unsupported format character 'k' (0x6b) at index 165
+2024-08-06 14:39:45 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 25, in login_user
+    cursor.execute(query, params)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 165
+
+2024-08-06 14:42:23 | ERROR | unsupported format character 'k' (0x6b) at index 165
+2024-08-06 14:42:23 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 25, in login_user
+    cursor.execute(query, params)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 165
+
+2024-08-06 14:42:34 | ERROR | unsupported format character 'k' (0x6b) at index 165
+2024-08-06 14:42:35 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 25, in login_user
+    cursor.execute(query, params)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 165
+
+2024-08-06 14:43:03 | ERROR | unsupported format character 'k' (0x6b) at index 165
+2024-08-06 14:43:03 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 25, in login_user
+    cursor.execute(query, params)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 165
+
+2024-08-06 14:43:33 | ERROR | unsupported format character 'k' (0x6b) at index 165
+2024-08-06 14:43:33 | ERROR | Traceback (most recent call last):
+  File "C:\Users\asus x412da\Documents\flask-back-master\src\services\AuthService.py", line 25, in login_user
+    cursor.execute(query, params)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 156, in execute
+    query = self.mogrify(query, args)
+  File "C:\Users\asus x412da\AppData\Local\Programs\Python\Python39\lib\site-packages\pymysql\cursors.py", line 134, in mogrify
+    query = query % self._escape_args(args, conn)
+ValueError: unsupported format character 'k' (0x6b) at index 165
+
+2024-08-06 14:44:50 | INFO | Headers received: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5NzM0NjEsImV4cCI6MTcyMjk3NDA2MSwidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.Beqe-ZlKt8GFZ0rNPg_9RFGfX__qVi_4hKLmKv4ISBM
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Postman-Token: f751f0dc-e694-4366-a2be-aabc61acc7ed
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-08-06 14:44:50 | INFO | Authorization header missing or empty
+2024-08-06 14:45:03 | INFO | Headers received: Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjI5NzM0NjEsImV4cCI6MTcyMjk3NDA2MSwidXNlcm5hbWUiOiJhZG1pbnVuYWMiLCJmdWxsbmFtZSI6ImFkbWludW5hYyIsInJvbGVzIjpbIkFkbWluaXN0cmF0b3IiLCJFZGl0b3IiXX0.Beqe-ZlKt8GFZ0rNPg_9RFGfX__qVi_4hKLmKv4ISBM
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Postman-Token: 062101b1-512e-4abd-9977-b379a44083bd
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-08-06 14:45:03 | INFO | Authorization header missing or empty
+2024-08-06 14:50:04 | INFO | Headers received: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: es-ES,es;q=0.9
+
+
+2024-08-06 14:50:04 | INFO | Authorization header missing or empty
+2024-08-06 14:50:08 | INFO | Headers received: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: es-ES,es;q=0.9
+
+
+2024-08-06 14:50:08 | INFO | Authorization header missing or empty
+2024-08-06 14:52:21 | INFO | Headers received: Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.e30.zCp-xgy0SGMw0PzKpWkkTPMvVlA3Qyh0kl_6GB-uvAg
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Postman-Token: 814e8d6c-8caf-443a-b603-6263d2162a92
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-08-06 14:52:21 | INFO | Authorization header missing or empty
+2024-08-06 14:54:03 | INFO | Headers received: Authorization: Bearer eyJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwWVhRaU9qRTNNakk1TnpNM09ESXNJbVY0Y0NJNk1UY3lNamszTkRNNE1pd2lkWE5sY201aGJXVWlPaUpoWkcxcGJuVnVZV01pTENKbWRXeHNibUZ0WlNJNkltRmtiV2x1ZFc1aFl5SXNJbkp2YkdWeklqcGJJa0ZrYldsdWFYTjBjbUYwYjNJaUxDSkZaR2wwYjNJaVhYMC5hLWJFSTBfRmhFZTZYMDRMNzg4TXVpYVA2MjFJNkhJTkJ0QXlGV2tZOG00IiwiYWxnIjoiSFMyNTYifQ.e30.LVN0J8-lK5VSiQ0eMXwe1Lmh2Ua_J1EeGjXbgIuvB3Q
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Postman-Token: f680ba81-83ed-490b-b5a8-aa1d0c40b571
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-08-06 14:54:03 | INFO | Authorization header missing or empty
+2024-08-06 14:54:44 | INFO | Headers received: Authorization: Bearer eyJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwWVhRaU9qRTNNakk1TnpNM09ESXNJbVY0Y0NJNk1UY3lNamszTkRNNE1pd2lkWE5sY201aGJXVWlPaUpoWkcxcGJuVnVZV01pTENKbWRXeHNibUZ0WlNJNkltRmtiV2x1ZFc1aFl5SXNJbkp2YkdWeklqcGJJa0ZrYldsdWFYTjBjbUYwYjNJaUxDSkZaR2wwYjNJaVhYMC5hLWJFSTBfRmhFZTZYMDRMNzg4TXVpYVA2MjFJNkhJTkJ0QXlGV2tZOG00IiwiYWxnIjoiSFMyNTYifQ.e30.DNV4IRH41wjqrrFddJse5kwgPRz-tEgqHb3b30jUKVY
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Postman-Token: 1d83cdf2-a6f4-44d3-a7b8-f7c9aca43ada
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-08-06 14:54:44 | INFO | Authorization header missing or empty
+2024-08-06 14:56:13 | INFO | Headers received: User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Postman-Token: b95cdbbe-a38c-4fa2-b3e6-7ffcb881bd9e
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-08-06 14:56:13 | INFO | Authorization header missing or empty
+2024-08-06 14:56:29 | INFO | Headers received: Authorization: Bearer eyJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwWVhRaU9qRTNNakk1TnpNM09ESXNJbVY0Y0NJNk1UY3lNamszTkRNNE1pd2lkWE5sY201aGJXVWlPaUpoWkcxcGJuVnVZV01pTENKbWRXeHNibUZ0WlNJNkltRmtiV2x1ZFc1aFl5SXNJbkp2YkdWeklqcGJJa0ZrYldsdWFYTjBjbUYwYjNJaUxDSkZaR2wwYjNJaVhYMC5hLWJFSTBfRmhFZTZYMDRMNzg4TXVpYVA2MjFJNkhJTkJ0QXlGV2tZOG00IiwiYWxnIjoiSFMyNTYifQ.e30.DNV4IRH41wjqrrFddJse5kwgPRz-tEgqHb3b30jUKVY
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Postman-Token: bfff6250-8e9f-4ef6-b230-ff9766f8c609
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-08-06 14:56:29 | INFO | Authorization header missing or empty
