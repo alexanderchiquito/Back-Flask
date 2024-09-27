@@ -19,7 +19,7 @@ class Security():
         try:
             payload = {
                 'iat': datetime.datetime.now(tz=cls.tz),
-                'exp': datetime.datetime.now(tz=cls.tz) + datetime.timedelta(minutes=10),
+                'exp': datetime.datetime.now(tz=cls.tz) + datetime.timedelta(hours=5),
                 'username': authenticated_user.USUARIO_ACCESO,
                 'fullname': authenticated_user.USUARIO_ACCESO,
                 'roles': ['Administrator', 'Editor']

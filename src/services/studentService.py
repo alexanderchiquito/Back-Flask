@@ -16,7 +16,9 @@ class StudentService:
                 cursor.execute(GET_STUDENT_BY_CARNET, (carnet,))
                 resultset = cursor.fetchall()
                 for row in resultset:
-                    student = Student(row['CARNET'], row['NOMBRE'], row['PROGRAMA'])
+                    student = Student(row['CARNET'], row['NOMBRE'], row['PROGRAMA'],
+                                      row['GENERO'], row['SISBEN'], row['PROMEDIO_GENERAL'],
+                                      row['MAT'], row['RELG'], row['PROG'])
                     students.append(student.to_json())
             connection.close()
             return students

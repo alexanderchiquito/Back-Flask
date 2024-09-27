@@ -1,6 +1,20 @@
 # src/sql/sql_queries.py
 
-GET_STUDENT_BY_CARNET= "SELECT CARNET, NOMBRE, PROGRAMA FROM matriculas WHERE CARNET = %s"
+GET_STUDENT_BY_CARNET= """
+    SELECT 
+	m.CARNET, 
+    m.NOMBRE, 
+    m.PROGRAMA, 
+    m.GENERO, 
+    m.SISBEN, 
+	n.Promedio AS PROMEDIO_GENERAL, 
+    n.MAT, 
+    n.RELG, 
+    n.PROG
+    FROM matriculas m
+	 JOIN notas n ON m.CARNET = n.CARNET
+    WHERE m.CARNET = %s
+"""
 
 GET_AUTH_LOGIN= """
     SELECT 
