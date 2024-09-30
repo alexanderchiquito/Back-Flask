@@ -37,7 +37,7 @@ def get_cantidad_desertores_por_facultad():
         
         desertores_por_facultad = DesercionGeneralService.get_cantidad_desertores_por_facultad()
         if desertores_por_facultad:
-            return jsonify({'desertores_por_facultad': str(desertores_por_facultad), 'message': 'SUCCESS', 'success': True})
+            return jsonify({'desertores_por_facultad': desertores_por_facultad, 'message': 'SUCCESS', 'success': True})
         else:
             return jsonify({'message': 'No data found', 'success': True}), 404
     except Exception as ex:
@@ -54,7 +54,7 @@ def get_cantidad_desertores_por_sisben():
         
         desertores_por_sisben = DesercionGeneralService.get_cantidad_desertores_por_sisben()
         if desertores_por_sisben:
-            return jsonify({'desertores_por_sisben': str(desertores_por_sisben), 'message': 'SUCCESS', 'success': True})
+            return jsonify({'desertores_por_sisben': desertores_por_sisben, 'message': 'SUCCESS', 'success': True})
         else:
             return jsonify({'message': 'No data found', 'success': True}), 404
     except Exception as ex:
@@ -71,7 +71,7 @@ def get_cantidad_desertores_por_pais():
         
         desertores_por_pais = DesercionGeneralService.get_cantidad_desertores_por_pais()
         if desertores_por_pais:
-            return jsonify({'desertores_por_pais': str(desertores_por_pais), 'message': 'SUCCESS', 'success': True})
+            return jsonify({'desertores_por_pais': desertores_por_pais, 'message': 'SUCCESS', 'success': True})
         else:
             return jsonify({'message': 'No data found', 'success': True}), 404
     except Exception as ex:
@@ -89,7 +89,7 @@ def get_cantidad_desertores_por_genero():
         
         desertores = DesercionGeneralService.get_cantidad_desertores_por_genero()
         if desertores:
-            return jsonify({'desertores_por_genero': str(desertores), 'message': 'SUCCESS', 'success': True})
+            return jsonify({'desertores_por_genero': desertores, 'message': 'SUCCESS', 'success': True})
         else:
             return jsonify({'message': 'No data found', 'success': True}), 404
     except Exception as ex:
@@ -106,7 +106,7 @@ def get_cantidad_desertores_por_etnia():
         
         desertores = DesercionGeneralService.get_cantidad_desertores_por_etnia()
         if desertores:
-            return jsonify({'desertores_por_etnia': str(desertores), 'message': 'SUCCESS', 'success': True})
+            return jsonify({'desertores_por_etnia': desertores, 'message': 'SUCCESS', 'success': True})
         else:
             return jsonify({'message': 'No data found', 'success': True}), 404
     except Exception as ex:
@@ -123,7 +123,7 @@ def get_cantidad_desertores_por_nivelEduPadre():
         
         desertores = DesercionGeneralService.get_cantidad_desertores_por_nivelEduPadre()
         if desertores:
-            return jsonify({'desertores_por_nivel_educativo_padre': str(desertores), 'message': 'SUCCESS', 'success': True})
+            return jsonify({'desertores_por_nivel_educativo_padre': desertores, 'message': 'SUCCESS', 'success': True})
         else:
             return jsonify({'message': 'No data found', 'success': True}), 404
     except Exception as ex:
@@ -141,7 +141,7 @@ def get_cantidad_desertores_por_nivelEduMadre():
         
         desertores = DesercionGeneralService.get_cantidad_desertores_por_nivelEduMadre()
         if desertores:
-            return jsonify({'desertores_por_nivel_educativo_madre': str(desertores), 'message': 'SUCCESS', 'success': True})
+            return jsonify({'desertores_por_nivel_educativo_madre': desertores, 'message': 'SUCCESS', 'success': True})
         else:
             return jsonify({'message': 'No data found', 'success': True}), 404
     except Exception as ex:
@@ -158,7 +158,7 @@ def get_porcentaje_desertores_por_facultad():
         
         desertores = DesercionGeneralService.get_porcentaje_desertores_por_facultad()
         if desertores:
-            return jsonify({'porcentaje_desertores_por_facutad': str(desertores), 'message': 'SUCCESS', 'success': True})
+            return jsonify({'porcentaje_desertores_por_facutad': desertores, 'message': 'SUCCESS', 'success': True})
         else:
             return jsonify({'message': 'No data found', 'success': True}), 404
     except Exception as ex:
